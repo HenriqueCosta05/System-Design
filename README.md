@@ -1,0 +1,158 @@
+# System Design
+
+Esse repositório foi criado com o propósito de reunir documentações, tutoriais, aulas e outros recursos para fins educacionais relacionados a `System Design`.
+
+O conteúdo está organizado seguindo como roadmap principal o [roadmap.sh/system-design](https://roadmap.sh/system-design), traduzido e adaptado para servir como guia de estudo.
+
+## Sumário
+
+- [ ] 1. Introdução
+  - O que é System Design?
+  - Como abordar System Design?
+- [ ] 2. Performance vs Escalabilidade
+- [ ] 3. Latência vs Throughput
+- [ ] 4. Disponibilidade vs Consistência
+  - Teorema CAP
+    - AP — Disponibilidade + Tolerância a Partição
+    - CP — Consistência + Tolerância a Partição
+  - Padrões de Consistência
+    - Consistência Fraca
+    - Consistência Eventual
+    - Consistência Forte
+  - Padrões de Disponibilidade
+    - Fail-Over (Active-Active, Active-Passive)
+    - Replicação (Master-Slave, Master-Master)
+    - Disponibilidade em Números (99.9%, 99.99%)
+    - Disponibilidade em Paralelo vs Sequencial
+- [ ] 5. Background Jobs
+  - Event-Driven
+  - Schedule Driven
+  - Returning Results
+- [ ] 6. Domain Name System (DNS)
+- [ ] 7. Content Delivery Networks (CDN)
+  - Push CDNs
+  - Pull CDNs
+- [ ] 8. Load Balancers
+  - Load Balancer vs Reverse Proxy
+  - Algoritmos de Load Balancing
+  - Layer 7 Load Balancing
+  - Layer 4 Load Balancing
+  - Horizontal Scaling
+- [ ] 9. Application Layer
+  - Microservices
+  - Service Discovery
+- [ ] 10. Databases
+  - SQL vs NoSQL
+  - Replication
+  - Sharding
+  - Federation
+  - Denormalization
+  - SQL Tuning
+  - RDBMS
+  - NoSQL
+    - Key-Value Store
+    - Document Store
+    - Wide Column Store
+    - Graph Databases
+- [ ] 11. Caching
+  - Strategies
+    - Refresh Ahead
+    - Write-behind
+    - Write-through
+    - Cache Aside
+  - Types of Caching
+    - Client Caching
+    - CDN Caching
+    - Web Server Caching
+    - Database Caching
+    - Application Caching
+- [ ] 12. Asynchronism
+  - Back Pressure
+  - Task Queues
+  - Message Queues
+- [x] 13. Communication
+  - HTTP, TCP, UDP
+  - Idempotent Operations
+  - RPC, REST, gRPC, GraphQL
+  - 📁 [Design de APIs](./personal_roadmap/01_Design_de_APIs/README.md)
+- [ ] 14. Performance Antipatterns
+  - Busy Database
+  - Busy Frontend
+  - Chatty I/O
+  - Extraneous Fetching
+  - Improper Instantiation
+  - Monolithic Persistence
+  - No Caching
+  - Noisy Neighbor
+  - Synchronous I/O
+  - Retry Storm
+- [ ] 15. Monitoring
+  - Health Monitoring
+  - Availability Monitoring
+  - Performance Monitoring
+  - Security Monitoring
+  - Usage Monitoring
+  - Instrumentation
+  - Visualization & Alerts
+- [ ] 16. Cloud Design Patterns
+  - Messaging
+    - Sequential Convoy
+    - Scheduling Agent Supervisor
+    - Queue-based Load Leveling
+    - Publisher/Subscriber
+    - Priority Queue
+    - Pipes and Filters
+    - Competing Consumers
+    - Choreography
+    - Claim Check
+    - Async Request Reply
+  - Data Management
+    - Valet Key
+    - Static Content Hosting
+    - Sharding
+    - Materialized View
+    - Index Table
+    - Event Sourcing
+    - CQRS
+    - Cache-Aside
+  - Design & Implementation
+    - Strangler Fig
+    - Static Content Hosting
+    - Sidecar
+    - Pipes & Filters
+    - Leader Election
+    - Gateway Routing
+    - Gateway Offloading
+    - Gateway Aggregation
+    - External Config Store
+    - Compute Resource Consolidation
+    - CQRS
+    - Backends for Frontend
+    - Anti-Corruption Layer
+    - Ambassador
+- [ ] 17. Reliability Patterns
+  - Availability
+    - Deployment Stamps
+    - Geodes
+    - Throttling
+    - Health Endpoint Monitoring
+    - Queue-Based Load Leveling
+  - High Availability
+    - Deployment Stamps
+    - Geodes
+    - Health Endpoint Monitoring
+    - Bulkhead
+    - Circuit Breaker
+  - Resiliency
+    - Bulkhead
+    - Circuit Breaker
+    - Compensating Transaction
+    - Health Endpoint Monitoring
+    - Leader Election
+    - Queue-Based Load Leveling
+    - Retry
+    - Scheduler Agent Supervisor
+  - Security
+    - Federated Identity
+    - Gatekeeper
+    - Valet Key
