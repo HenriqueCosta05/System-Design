@@ -6,7 +6,7 @@ O conteúdo está organizado seguindo como roadmap principal o [roadmap.sh/syste
 
 ## Sumário
 
-1. [Introdução](./roadmap/01_introduction.md)
+1. [Introdução](./roadmap/01_Introduction.md)
 - [ ] 2. Performance vs Escalabilidade
 - [ ] 3. Latência vs Throughput
 - [ ] 4. Disponibilidade vs Consistência
